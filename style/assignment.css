@@ -41,8 +41,14 @@ nav ul li {
     border: none;
     
     
+    
 
 
+}
+.btn-primary:hover{
+    transition-duration: 0.3;
+    background-color: aqua;
+    color: black;
 }
 .btn-primary1{
     background-color: #4E47FF;
@@ -52,7 +58,8 @@ nav ul li {
     border-radius: 10px;
     border: none;
     margin-bottom: 20px;
-    
+    width: 100%;
+    cursor: pointer;
     
 
 
@@ -147,4 +154,7 @@ section input[type="email"],section input[type="text"],section textarea{
     margin-bottom: 24px;
     border-radius: 5px;
 
+}
+.footer{
+    margin-top: 50px;
 }
