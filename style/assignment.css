@@ -39,12 +39,7 @@ nav ul li {
     padding: 10px 30px;
     border-radius: 10px;
     border: none;
-    
-    
-    
-
-
-}
+    }
 .btn-primary:hover{
     transition-duration: 0.3;
     background-color: aqua;
@@ -153,16 +148,20 @@ section input[type="email"],section input[type="text"],section textarea{
 }
 
 .footer{
-    margin-top: 250px;
+    margin-top: 300px;
     width: 100%;
     padding: 50px 60px;
     text-align: center;
+    justify-content: space-around;
 }
 .footer-items{
     display: flex;
     width: 100%;
     list-style: none;
-    gap: 20px;
+justify-content: center;
+justify-items: center;
+gap: 20px;
+    
 }
 
 ul li a{
@@ -174,4 +173,6 @@ ul li a{
 .footer-logo{
     font-size: 60px;
     color: #4E47FF;
+    margin-top: 30px;
+
 }
