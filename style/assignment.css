@@ -50,7 +50,7 @@ nav ul li {
     background-color: aqua;
     color: black;
 }
-.btn-primary1{
+.btn-primary{
     background-color: #4E47FF;
     color: #FFFFFF;
     font-weight: 500;
@@ -60,11 +60,7 @@ nav ul li {
     margin-bottom: 20px;
     width: 100%;
     cursor: pointer;
-    
-
-
 }
-
 
 .header{
     background-image: url(../Assets/Hero-bg.png);
@@ -137,7 +133,7 @@ nav ul li {
     
     }
 .touch-column{
-    width: 50%;
+    width: 100%;
     display: block;
     height: 50px;
     padding: 10px 100px;
@@ -155,6 +151,27 @@ section input[type="email"],section input[type="text"],section textarea{
     border-radius: 5px;
 
 }
+
 .footer{
-    margin-top: 50px;
+    margin-top: 250px;
+    width: 100%;
+    padding: 50px 60px;
+    text-align: center;
+}
+.footer-items{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+
+   
+}
+
+.footer-logo{
+    font-size: 60px;
+    color: #4E47FF;
 }
